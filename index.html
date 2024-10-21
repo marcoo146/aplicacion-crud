@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Libros Leídos</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Libros Leídos</h1>
+        
+       
+        <div class="form-container">
+            <h2>Agregar Libro</h2>
+            <form id="createForm">
+                <input type="text" id="titulo" placeholder="Título" required>
+                <input type="text" id="autor" placeholder="Autor" required>
+                <textarea id="descripcion" placeholder="Descripción" required></textarea>
+                <button type="submit">Agregar</button>
+            </form>
+        </div>
+
+        
+        <div class="list-container">
+            <h2>Lista de Libros</h2>
+            <ul id="bookList"></ul>
+        </div>
+    </div>
+
+    
+    <div id="editModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form id="editForm">
+                <input type="text" id="editTitulo" placeholder="Título" required>
+                <input type="text" id="editAutor" placeholder="Autor" required>
+                <textarea id="editDescripcion" placeholder="Descripción" required></textarea>
+                <button type="submit">Actualizar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./assets/main.js"></script>
+</body>
+</html>
