@@ -1,6 +1,6 @@
 let libros = JSON.parse(localStorage.getItem('libros')) || [];
 
-// Inicializar la lista de libros
+
 displayBooks();
 
 document.getElementById('createForm').addEventListener('submit', function(event) {
