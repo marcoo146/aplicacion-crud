@@ -123,8 +123,9 @@ li {
 }
 
 .imagen {
-    align-items: right;
-    width: 1000px;
-    height: 500px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
     
 }
