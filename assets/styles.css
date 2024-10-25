@@ -3,6 +3,7 @@ body {
     background: #2b2731;
     margin: 0;
     padding: 50px;
+    
 }
 
 .container {
@@ -46,7 +47,7 @@ button {
     color: #ffffff;
     border-radius: 5px;
     cursor: pointer;
-    transition: background 0.3s ease;
+
 }
 
 button:hover {
@@ -93,6 +94,14 @@ li {
     box-shadow: 0 0 10px rgba(116, 85, 85, 0.2);
 }
 
+
+.encabezado { background-color:#5b6488;
+    color: rgb(12, 12, 12);
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
 .close {
     color: #aaa;
     float: right;
@@ -104,6 +113,13 @@ li {
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+.footer {background-color:#5b6488;
+    color: rgb(12, 12, 12);
+    padding: 40px;
+    text-align: left;
+    margin-top: 100px;
 }
 
 .imagen {
